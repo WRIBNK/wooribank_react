@@ -94,7 +94,7 @@ function Main() {
         </li>
     </ul>
 
-    <div className="menu">
+    <div className="main_menu">
         <a href="#;">
             금융 소비자 보호
         </a>
