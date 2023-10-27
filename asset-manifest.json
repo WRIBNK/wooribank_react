@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/wooribank_react/static/css/main.0aebc756.css",
-    "main.js": "/wooribank_react/static/js/main.d59f8dbd.js",
+    "main.css": "/wooribank_react/static/css/main.0ef0117e.css",
+    "main.js": "/wooribank_react/static/js/main.6a2df539.js",
     "static/media/bg_visual1.png": "/wooribank_react/static/media/bg_visual1.f27a79a2eb8f1580eed8.png",
     "index.html": "/wooribank_react/index.html",
-    "main.0aebc756.css.map": "/wooribank_react/static/css/main.0aebc756.css.map",
-    "main.d59f8dbd.js.map": "/wooribank_react/static/js/main.d59f8dbd.js.map"
+    "main.0ef0117e.css.map": "/wooribank_react/static/css/main.0ef0117e.css.map",
+    "main.6a2df539.js.map": "/wooribank_react/static/js/main.6a2df539.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aebc756.css",
-    "static/js/main.d59f8dbd.js"
+    "static/css/main.0ef0117e.css",
+    "static/js/main.6a2df539.js"
   ]
 }
