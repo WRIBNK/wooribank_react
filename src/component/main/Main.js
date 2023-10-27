@@ -25,11 +25,10 @@ function Main() {
             slidesPerView={1}
             speed={700}
             onSlideChange={(swiper) => {
-            console.log('slide change')
-            var activeSlide = swiper.activeIndex;
-            var slides = frame.current.querySelectorAll('.swiper-slide');
-            var bgColor = slides[activeSlide].getAttribute('data-bg-color');
-            frame.parentElement.style.backgroundColor = bgColor;
+                var activeSlide = swiper.activeIndex;
+                var slides = frame.current.querySelectorAll('.swiper-slide');
+                var bgColor = slides[activeSlide].getAttribute('data-bg-color');
+                frame.current.parentElement.style.backgroundColor = bgColor;
             }}
             ref={frame}
         >
