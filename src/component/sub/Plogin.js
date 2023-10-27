@@ -18,7 +18,7 @@ function Plogin() {
                                 우리은행은 어떠한 이유로도 보안카드번호 35개 전체 입력을 요구하지 않습니다.
                             </li>
                             <li>
-                                <img src="../img/sub_page/로그인_개인/check_icon.png" alt="체크 아이콘"/>
+                                <img src={ImgUrl + "check_icon.png"} alt="체크 아이콘"/>
                                 우리은행 홈페이지는 인터넷 주소창에 자물쇠 등 보안 아이콘이 있습니다.
                             </li>
                         </ul>
@@ -28,10 +28,10 @@ function Plogin() {
                             <h3>인증서 로그인</h3>
                             <div className="p_btns_imgBox">
                                 <Link to="/#" className="fina">
-                                    <img src="../img/sub_page/로그인_개인/login_btn1.png" alt="금융인증서 버튼 이미지"/>
+                                    <img src={ImgUrl + "login_btn1.png"} alt="금융인증서 버튼 이미지"/>
                                 </Link>
                                 <Link to="/#" className="joint">
-                                    <img src="../img/sub_page/로그인_개인/login_btn_2.png" alt="공동인증서 버튼 이미지"/>
+                                    <img src={ImgUrl + "login_btn_2.png"} alt="공동인증서 버튼 이미지"/>
                                 </Link>
                             </div>
                             <div className="popupCheck">
@@ -57,7 +57,7 @@ function Plogin() {
                                     <input type="password" id="PWD" placeholder="비밀번호 입력"/>
                                 </div>
                                 <div className="login_imgBox">
-                                    <img src="../img/sub_page/로그인_개인/login_btn.png" alt="로그인"/>
+                                    <img src={ImgUrl + "login_btn.png"} alt="로그인"/>
                                 </div>
                             </div>
                             <div className="checkBox">
@@ -74,14 +74,14 @@ function Plogin() {
                     <div className="content_box">
                         <div className="p_con2">
                             <div className="WON_guide_imgBox">
-                                <img id="won1" src="../img/sub_page/로그인_개인/WONlogin_btn.png" alt="우리WON인증서"/>
-                                <img id="won2" src="../img/sub_page/로그인_개인/WONlogin_btn2.png" alt="우리WON인증서 로그인 버튼"/>
+                                <img id="won1" src={ImgUrl + "WONlogin_btn.png"} alt="우리WON인증서"/>
+                                <img id="won2" src={ImgUrl + "WONlogin_btn2.png"} alt="우리WON인증서 로그인 버튼"/>
                             </div>
                         </div>
                         <div className="p_con2">
                             <div className="guide_imgBox">
-                                <img className="guide_btn" src="../img/sub_page/로그인_개인/guide_btn1.png" alt="보안프로그램 설치안내"/>
-                                <img className="guide_btn" src="../img/sub_page/로그인_개인/guide_btn2.png" alt="인터넷뱅킹 이용시 유의사항"/>
+                                <img className="guide_btn" src={ImgUrl + "guide_btn1.png"} alt="보안프로그램 설치안내"/>
+                                <img className="guide_btn" src={ImgUrl + "guide_btn2.png"} alt="인터넷뱅킹 이용시 유의사항"/>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ function Plogin() {
                             <h3>
                                 <Link to="/#">
                                     자주묻는질문
-                                    <img src="../img/sub_page/로그인_개인/arrow.png" alt="오른쪽 화살표"/>
+                                    <img src={ImgUrl + "arrow.png"} alt="오른쪽 화살표"/>
                                 </Link>
                             </h3>
                             <ul className="qus_list">
@@ -103,7 +103,7 @@ function Plogin() {
                         <div className="p_con3">
                             <h3>
                                 <Link to="/#">고객센터
-                                    <img src="../img/sub_page/로그인_개인/arrow.png" alt="오른쪽 화살표"/>
+                                    <img src={ImgUrl + "arrow.png"} alt="오른쪽 화살표"/>
                                 </Link>
                                 <p>평일 09:00 ~ 18:00</p>
                             </h3>
