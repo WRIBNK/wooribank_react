@@ -29,7 +29,7 @@ function Main() {
             var activeSlide = swiper.activeIndex;
             var slides = frame.current.querySelectorAll('.swiper-slide');
             var bgColor = slides[activeSlide].getAttribute('data-bg-color');
-            frame.current.style.backgroundColor = bgColor;
+            frame.parentElement.style.backgroundColor = bgColor;
             }}
             ref={frame}
         >
