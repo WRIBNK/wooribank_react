@@ -45,6 +45,8 @@ function Company() {
 
   }, [])
 
+  const imgUrl = process.env.PUBLIC_URL;
+
   return (
     <section className="company">
       <div className="company_inner">
@@ -57,7 +59,7 @@ function Company() {
             <a href="#;" className="company_btn">바로가기</a>
             <div className="company_imgBox">
               <img
-                src="../img/sub_page/기업/자물쇠.png"
+                src={imgUrl+"/img/sub_page/기업/자물쇠.png"}
                 alt="기업 뱅킹을 더 안전하게 이용하세요! 전자금융사기 피해 예방 및 안심경영을 지원합니다."
               />
             </div>
@@ -80,31 +82,31 @@ function Company() {
                 <div className="company_subTwoSli">
                   <article>
                     <img
-                      src="../img/sub_page/기업/기업_추천서비스.png"
+                      src={imgUrl+"/img/sub_page/기업/기업_추천서비스.png"}
                       alt="환율동향 및 현물환/선물환까지"
                     />
                   </article>
                   <article>
                     <img
-                      src="../img/sub_page/기업/기업_추천서비스(2).png"
+                      src={imgUrl+"/img/sub_page/기업/기업_추천서비스(2).png"}
                       alt="수수료없이 바로 받는 입출금내역 푸시알림"
                     />
                   </article>
                   <article>
                     <img
-                      src="../img/sub_page/기업/기업_추천서비스(3).png"
+                      src={imgUrl+"/img/sub_page/기업/기업_추천서비스(3).png"}
                       alt="다양한 증명서/확인증을 한번에 발급"
                     />
                   </article>
                   <article>
                     <img
-                      src="../img/sub_page/기업/기업_추천서비스(4).png"
+                      src={imgUrl+"/img/sub_page/기업/기업_추천서비스(4).png"}
                       alt="국세청 간편장부를 손쉽게 작성"
                     />
                   </article>
                   <article>
                     <img
-                      src="../img/sub_page/기업/기업_추천서비스(5).png"
+                      src={imgUrl+"/img/sub_page/기업/기업_추천서비스(5).png"}
                       alt="성공 기업 경영을 위한 다양한 컨텐츠 제공"
                     />
                   </article>
@@ -139,7 +141,7 @@ function Company() {
                       </div>
                     </div>
                     <img
-                      src="../img/sub_page/기업/ani_exp1.gif"
+                      src={imgUrl+"/img/sub_page/기업/ani_exp1.gif"}
                       alt="파란색 캐릭터"
                     />
                   </section>
@@ -159,7 +161,7 @@ function Company() {
                       </div>
                     </div>
                     <img
-                      src="../img/sub_page/기업/ani_exp2.gif"
+                      src={imgUrl+"/img/sub_page/기업/ani_exp2.gif"}
                       alt="노란색 캐릭터"
                     />
                   </section>
@@ -242,7 +244,7 @@ function Company() {
               </div>
             </section>
             <section>
-              <img src="../img/sub_page/기업/기업_퇴직연금.png" alt="기업_퇴직연금" />
+              <img src={imgUrl+"/img/sub_page/기업/기업_퇴직연금.png"} alt="기업_퇴직연금" />
             </section>
           </div>
         </div>
@@ -259,7 +261,7 @@ function Company() {
                 <p>DOWNLOAD</p>
               </div>
               <div className="company_qr_img">
-                <img src="../../img/sub_page/기업/img_qr_ios.png" alt="IOS QR코드 사진" />
+                <img src={imgUrl+"/img/sub_page/기업/img_qr_ios.png"} alt="IOS QR코드 사진" />
               </div>
             </div>
             <div className="company_And company_smartphone">
@@ -268,7 +270,7 @@ function Company() {
                 <p>DOWNLOAD</p>
               </div>
               <div className="company_qr_img">
-                <img src="../img/sub_page/기업/img_qr_aos.png" alt="ANDROID QR코드 사진" />
+                <img src={imgUrl+"/img/sub_page/기업/img_qr_aos.png"} alt="ANDROID QR코드 사진" />
               </div>
             </div>
           </div>
