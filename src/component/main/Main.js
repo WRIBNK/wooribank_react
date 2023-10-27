@@ -69,44 +69,44 @@ function Main() {
 
             <ul className="movement">
                 <li>
-                    <a href="#;">
+                    <Link to="">
                         다른금융 <br />
                         정보조회
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#;">
+                    <Link to="">
                         조회
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#;">
+                    <Link to="">
                         이체
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#;">
+                    <Link to="">
                         환율
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="#;">
+                    <Link to="">
                         빠른메뉴
                         <span className="ArrowBtn"></span>
-                    </a>
+                    </Link>
                 </li>
             </ul>
 
             <div className="main_menu">
-                <a href="#;">
+                <Link to="">
                     금융 소비자 보호
-                </a>
-                <a href="#;">
+                </Link>
+                <Link to="">
                     보안뉴스
-                </a>
-                <a href="#;">
+                </Link>
+                <Link to="">
                     상품/약관 공시
-                </a>
+                </Link>
             </div>
 
             <section className="product">
@@ -191,7 +191,7 @@ function Main() {
             <section className="service">
                 <h2>서비스</h2>
                 <div className="inner">
-                    <a href="#;" className="service_tab" title="우리WON뱅킹 바로가기">
+                    <Link to="" className="service_tab" title="우리WON뱅킹 바로가기">
                         <div className="imgBox">
                             <img src={img_url + "/img/main_page/서비스/우리WON뱅킹.png"} alt="우리WON뱅킹" />
                         </div>
@@ -200,7 +200,7 @@ function Main() {
                             <p>새 시대의 금융을 켜다, <br />
                                 우리은행 대표 모바일뱅킹 APP</p>
                         </div>
-                    </a>
+                    </Link>
                     <Link to="/mydata" className="service_tab" title="마이데이터">
                         <div className="imgBox">
                             <img src={img_url + "/img/main_page/서비스/마이데이터.png"} alt="마이데이터" />
@@ -210,7 +210,7 @@ function Main() {
                             <p>나의 데이터가 가치가 되는 <br /> 새로운 경험을 체험해 보세요</p>
                         </div>
                     </Link>
-                    <a href="#;" className="service_tab" title="스마트간편신규 바로가기">
+                    <Link to="" className="service_tab" title="스마트간편신규 바로가기">
                         <div className="imgBox">
                             <img src={img_url + "/img/main_page/서비스/스마트간편신규.png"} alt="스마트간편신규" />
                         </div>
@@ -218,7 +218,7 @@ function Main() {
                             <h3>스마트간편신규</h3>
                             <p>직원에게 추천받으신 상품을 <br /> 간편하게 가입하세요</p>
                         </div>
-                    </a>
+                    </Link>
                 </div>
             </section>
 
@@ -230,9 +230,9 @@ function Main() {
                             <p>더보기</p>
                         </div>
                         <ul className="list">
-                            <li><a href="#;">[채용] 2023년 하반기 우리은행 신입행원...</a> <span>2023.10.11</span></li>
-                            <li><a href="#;">[공지] 모바일 · 인터넷뱅킹 타행이체 수수...</a> <span>2023.02.08</span></li>
-                            <li><a href="#;">[공지] 보이스피싱 상습범 바로 이 목소리를...</a> <span>2023.10.11</span></li>
+                            <li><Link to="">[채용] 2023년 하반기 우리은행 신입행원...</Link> <span>2023.10.11</span></li>
+                            <li><Link to="">[공지] 모바일 · 인터넷뱅킹 타행이체 수수...</Link> <span>2023.02.08</span></li>
+                            <li><Link to="">[공지] 보이스피싱 상습범 바로 이 목소리를...</Link> <span>2023.10.11</span></li>
                         </ul>
                     </div>
                     <div className="eventBox">
@@ -241,9 +241,9 @@ function Main() {
                             <p>더보기</p>
                         </div>
                         <ul className="list">
-                            <li><a href="#;">틴틴카드 사용하고 1만원 받자!</a></li>
-                            <li><a href="#;">우리은행 첫 적금 만들고 1만원 받으세요!</a></li>
-                            <li><a href="#;">직장인을 위한 특별한 혜택! 우리 직장인셀럽</a></li>
+                            <li><Link to="">틴틴카드 사용하고 1만원 받자!</Link></li>
+                            <li><Link to="">우리은행 첫 적금 만들고 1만원 받으세요!</Link></li>
+                            <li><Link to="">직장인을 위한 특별한 혜택! 우리 직장인셀럽</Link></li>
                         </ul>
                     </div>
                 </div>
