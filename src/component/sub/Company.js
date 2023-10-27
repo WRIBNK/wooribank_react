@@ -1,7 +1,7 @@
 import { faAngleRight, faBolt, faCaretRight, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { useEffect, useRef } from 'react'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min'
+import { Link } from 'react-router-dom'
 
 function Company() {
   const company_visual = useRef();
@@ -175,7 +175,7 @@ function Company() {
             <p>안전한 인터넷뱅킹</p>
             <h2>로그인하세요!</h2>
             <div className="login_btn">
-              <a href="#;">로그인</a>
+              <Link to="/plogin">로그인</Link>
             </div>
             <div className="company_center">
               <p>
