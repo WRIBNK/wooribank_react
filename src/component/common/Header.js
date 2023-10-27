@@ -14,13 +14,15 @@ function Header() {
     document.querySelector("body").classList.remove("bodyOn")
   }, [closeBtn])
 
+  const imgUrl = process.env.PUBLIC_URL;
+
   return (
     <header>
       <div className="inner">
         <div className="title_Box">
           <h1>
             <Link to="/">
-              <img src="../img/header/h1_01.png" alt="우리은행 로고" />
+              <img src={imgUrl + "/img/header/h1_01.png"} alt="우리은행 로고" />
             </Link>
           </h1>
         </div>
@@ -37,7 +39,7 @@ function Header() {
           <li className="header_Btn" ref={headerBtn} onClick={() => {
             headerOn.current.classList.add("header_subOn")
           }}>
-            <img src="../img/header/upper_search_icon_new.png" alt="검색" />
+            <img src={imgUrl + "/img/header/upper_search_icon_new.png"} alt="검색" />
           </li>
         </ul>
       </div>
@@ -45,7 +47,7 @@ function Header() {
         <section>
           <div className="search_box">
             <input type="text" spellCheck="false" />
-            <img src="../img/header/inner_search_icon.png" alt="검색" />
+            <img src={imgUrl + "/img/header/inner_search_icon.png"} alt="검색" />
           </div>
           <div className="header_subText">
             <h3>추천검색어</h3>
@@ -64,7 +66,7 @@ function Header() {
           <div className="header_close_btn" ref={closeBtn} onClick={() => {
             headerOn.current.classList.remove("header_subOn")
           }}>
-            <img src="../img/header/search_cont_close.png" alt="닫기버튼" />
+            <img src={imgUrl + "/img/header/search_cont_close.png"} alt="닫기버튼" />
           </div>
         </section>
         <span></span>
